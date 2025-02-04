@@ -1,0 +1,19 @@
+.box {
+  margin: 20px;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 250px;
+  border: 3px solid #fd23c1;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Garamond", serif;
+}
+
+p {
+  font-family: "Garamond", serif;
+}
