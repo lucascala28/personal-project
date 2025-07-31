@@ -42,6 +42,7 @@
 }
 
 body {
-  background: url('/background.gif') no-repeat center center fixed;
+  #background: url('/background.gif') no-repeat center center fixed;
   background-size: cover;
+  background-color: #fee17d;
 }
