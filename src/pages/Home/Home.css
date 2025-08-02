@@ -1,8 +1,14 @@
 .name-letter{
-    color: #233e2a
+    color: #233e2a;
 }
 .link{
-    color: #6c5952
+    color: #6c5952;
+    font-size: 3vw;
+}
+.typewriter{
+    background-color: #6c5952;
+    color: #f5f5dc;
+    font-size: 3vw;
 }
 .container{
     display: flex;
@@ -15,11 +21,27 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.top-bottom-box{
+.top-box{
     height: 25%;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #6c5952;
+}
+.bottom-box{
+    height: 25%;
+    align-items: flex-start;
+    padding-top: 2rem;
+    border-top: 2px solid #6c5952;
 }
 .center-box{
     height: 50%;
+    align-items: center;
+}
+.center-box > div > span{
+    font-size: 16vw;
+}
+.name-container-active .name-letter:not(.hovered){
+    opacity: 0;
+    transform: scale(0.5);
 }
