@@ -1,61 +1,25 @@
-* {
-  box-sizing: border-box;
+.name-letter{
+    color: #233e2a
 }
-
-.left-box {
-  margin: 20px;
-  text-align: left;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40%;
-  height: auto;
-  border: 3px solid #FE7DDA;
-  padding: 20px;
+.link{
+    color: #6c5952
 }
-
-.right-box {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  text-align: right;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 30%;
-  height: auto;
-  border: 3px solid #FE7DDA;
-  padding: 20px;
-  justify-content: space-between;
-  align-items: center;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
 }
-
-h1 {
-  font-family: "Garamond", serif;
-  flex: 1;
+.container > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-p {
-  font-family: "Garamond", serif;
+.top-bottom-box{
+    height: 25%;
 }
-
-span {
-  font-family: "Garamond", serif;
-}
-
-.contact-list {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  text-decoration: underline;
-}
-
-.contact-list a {
-  text-decoration: underline;
-  color: #761ab2;
-  font-family: "Garamond", serif;
-}
-
-.contact-list a:hover {
-  color: #fdc1f9;
+.center-box{
+    height: 50%;
 }
